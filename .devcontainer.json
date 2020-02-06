@@ -1,0 +1,14 @@
+{
+    "name": "Use VS Online to code in InterSystems ObjectScript in an IRIS container",
+    "image": "store/intersystems/iris-community:2020.1.0.197.0",
+    "appPort": [
+        51773,
+        52773
+    ],
+    "extensions": [
+        "daimor.vscode-objectscript"
+    ],
+
+    // Suppress default 'oryx build'
+    "postCreateCommand": ""
+}
